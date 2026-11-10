@@ -386,7 +386,33 @@ function App() {
             </section>
           </div>
         </div>
+<section className="panel projects-panel" id="projects">
+  <div className="panel-heading">
+    <div>
+      <span className="mini-label">WHAT I'M BUILDING</span>
+      <h2>My Projects ✨</h2>
+    </div>
+    <span className="panel-emoji">💻</span>
+  </div>
 
+  <div className="project-card">
+    <h3>Student Task Manager</h3>
+    <p>A web application to organize student tasks, deadlines and priorities.</p>
+    <span>React · JavaScript · CSS</span>
+  </div>
+
+  <div className="project-card">
+    <h3>Portfolio Website</h3>
+    <p>A personal website showcasing my projects and skills.</p>
+    <span>HTML · CSS · JavaScript</span>
+  </div>
+
+  <div className="project-card">
+    <h3>Library Management System</h3>
+    <p>A system to manage books, students and book issues.</p>
+    <span>MySQL · SQL</span>
+  </div>
+</section>
         <footer className="page-footer">
           <span>made with ♡ and a little bit of magic</span>
           <span>Orchid. study planner ✿</span>
